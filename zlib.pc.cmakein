@@ -9,5 +9,5 @@ Description: zlib compression library
 Version: @VERSION@
 
 Requires:
-Libs: -L${libdir} -L${sharedlibdir} -lz
+Libs: -L${libdir} -L${sharedlibdir} -lzlib
 Cflags: -I${includedir}
